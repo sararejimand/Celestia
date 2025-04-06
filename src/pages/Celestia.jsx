@@ -102,8 +102,7 @@
             <h1 style={{
                 textAlign: 'center',
                 paddingTop: '2rem',
-                fontSize: '2.5rem',
-                fontWeight: 700,
+                fontSize: '2.9rem',
                 letterSpacing: '1px',
                 fontFamily: "'Caveat', cursive",
                 
@@ -111,17 +110,17 @@
                 Celestia 
             </h1>
         
-            <p style={{ textAlign: 'center', maxWidth: '600px', margin: '1rem auto 3rem', opacity: 0.8 }}>
+            <p style={{ textAlign: 'center', maxWidth: '600px', margin: '1rem auto 3rem', opacity: 0.8, fontSize: '1.2rem' }}>
                 Cliquez sur une étoile pour découvrir une légende céleste...
             </p>
         
-            {/* clickable stars go here */}
+
         
         
-        {/* Stars on the screen */}
+
             {stars.map((star) => {
-    const top = Math.floor(Math.random() * 80) + 10 // between 10% and 90%
-    const left = Math.floor(Math.random() * 80) + 10 // between 10% and 90%
+            const top = Math.floor(Math.random() * 80) + 10 
+           const left = Math.floor(Math.random() * 80) + 10 
 
     return (
         <div
