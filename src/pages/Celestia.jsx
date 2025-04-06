@@ -42,7 +42,37 @@
             text: "Sacrifiée au monstre marin par ses parents, Andromède fut sauvée par Persée et placée dans le ciel par les dieux.",
             top: 60,
             left: 10
-            }
+            },
+            {
+                id: 7,
+                name: 'Bételgeuse',
+                text: "Dans l’épaule d’Orion brille Bételgeuse, une étoile géante rouge sur le point d’exploser — symbole de puissance et de fin imminente.",
+                top: 30    
+            },
+            {
+                id: 8,
+                name: 'Alcyone',
+                text: "Alcyone est la plus brillante des Pléiades, sept sœurs célestes poursuivies par Orion, transformées en étoiles pour échapper à son désir.",
+                top: 50,
+                left: 40},
+                {
+                id: 9,
+                name: 'Polaris',
+                text: "Polaris, l’étoile du Nord, a guidé marins et voyageurs depuis des siècles. Elle reste fixe dans le ciel, comme un phare éternel.",
+                top: 70,
+                },
+                {
+                id: 10,
+                name: 'Capella',
+                text: "Capella symbolisait la chèvre nourricière de Zeus. Chez les Romains, elle annonçait les tempêtes — à la fois nourricière et furieuse.",
+                top: 20,
+                left: 80},
+                {
+                id: 11,
+                name: 'Rigel',
+                text: "Rigel marque le pied d’Orion. Elle brille avec intensité mais annonce aussi la fin du chasseur, blessé par le scorpion céleste.",
+                top: 80,
+                left: 20}
         ]
         
             
