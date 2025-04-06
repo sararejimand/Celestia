@@ -163,12 +163,12 @@
             >
             <div
                 style={{
-                backgroundColor: 'rgb(0, 24, 39)',
+                backgroundColor: 'rgba(1, 18, 28, 0.79)',
                 padding: '2rem',
                 borderRadius: '12px',
                 maxWidth: '400px',
                 textAlign: 'center',
-                boxShadow: '0 0 20px rgba(172, 178, 223, 0.2)',
+                boxShadow: '0 0 20px rgba(95, 135, 157, 0.2)',
                 cursor: 'default'
                 }}
                 onClick={e => e.stopPropagation()}
@@ -179,7 +179,9 @@
                 style={{
                     marginTop: '1.5rem',
                     padding: '0.5rem 1rem',
-                    backgroundColor: 'white',
+                    backgroundColor: 'rgb(169, 214, 238)',
+                    fontFamily: 'arial, sans-serif',
+                    fontWeight: 'bold',
                     color: '#0b0c2a',
                     border: 'none',
                     borderRadius: '6px',
