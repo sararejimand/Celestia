@@ -72,9 +72,11 @@
             <h1 style={{
                 textAlign: 'center',
                 paddingTop: '2rem',
-                fontSize: '2.2rem',
+                fontSize: '2.5rem',
+                fontWeight: 700,
                 letterSpacing: '1px',
-                fontFamily: 'Georgia, serif'
+                fontFamily: "'Caveat', cursive",
+                
             }}>
                 Celestia 
             </h1>
@@ -142,7 +144,7 @@
                 }}
                 onClick={e => e.stopPropagation()}
             >
-                <h2>{selectedStar.name}</h2>
+                <h2 style= {{fontFamily: "'Caveat', cursive", fontSize:'2.2rem'}}>{selectedStar.name}</h2>
                 <p style={{ fontSize: '1rem', marginTop: '1rem' }}>{selectedStar.text}</p>
                 <button
                 style={{
